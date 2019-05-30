@@ -197,7 +197,7 @@ def boarding_passes_list_view(request, format=None):
 
     if request.method == 'GET':
         queryset = BoardingPasses.objects.all()
-        queryset = queryset[0:10]
+        # queryset = queryset[0:10]
         serializer = BoardingPassesSerializers(queryset, many=True)
         return Response(serializer.data)
 
