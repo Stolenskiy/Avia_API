@@ -35,6 +35,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['avia_api.herokuapp.com']
 
+
 # Application definition
 
 INSTALLED_APPS = [
