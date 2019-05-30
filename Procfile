@@ -1,1 +1,1 @@
-worker: python3 manage.py
+web: gunicorn Avia_API.wsgi --log-file
