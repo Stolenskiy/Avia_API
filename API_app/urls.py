@@ -18,7 +18,7 @@ urlpatterns = [
     path('seats/', seats_list_view, name="seats_list"),
     path('ticket_flights/<slug:ticket_no>/<int:flight>/', ticket_flights_view, name="ticket_flights"),
     path('ticket_flights/', ticket_flights_list_view, name="ticket_flights_list"),
-    path('base-auth/', include('rest_framework.urls')),
+    path('base_auth/', include('rest_framework.urls')),
     path('auth/', include('djoser.urls')),
     path('auth-token/', include('djoser.urls.authtoken')),
     path('', include(router.urls))
