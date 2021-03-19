@@ -3,7 +3,7 @@ Django==2.2.1
 django-compositekey==1.5.0
 django-filter==2.1.0
 django-templated-mail==1.1.1
-djangorestframework==3.9.4
+djangorestframework==3.11.2
 djangorestframework-jsonapi==2.7.0
 djangorestframework-jwt==1.11.0
 djangorestframework-stubs==0.4.2
